@@ -3,7 +3,8 @@ name: Sheet to Json Workflow
 on:
   schedule:
     # every 5 minutes the job will run
-    - cron:  '*/5 * * * *'
+    #- cron:  '*/5 * * * *'
+    - cron: '** / 0 * 8 *'
 
 jobs:
   update-json-data:
